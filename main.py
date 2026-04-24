@@ -5,3 +5,4 @@ for root,dirs,files in os.walk(os.path.expanduser("~")):
         print(os.path.join(root,file))
         file_count+=1
 print(f"\n {file_count} dosya gezildi!!!!!!!!!!!!")
+print("Büyükler büyüdükçe...")
