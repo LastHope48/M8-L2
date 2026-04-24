@@ -6,3 +6,4 @@ for root,dirs,files in os.walk(os.path.expanduser("~")):
         file_count+=1
 print(f"\n {file_count} dosya gezildi!!!!!!!!!!!!")
 print("Büyükler büyüdükçe...")
+print("\n Kırkayaklar vadisi \n \a")
