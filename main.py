@@ -1,4 +1,4 @@
-import os
+import os,random
 file_count=0
 for root,dirs,files in os.walk(os.path.expanduser("~")):
     for file in files:
@@ -7,3 +7,4 @@ for root,dirs,files in os.walk(os.path.expanduser("~")):
 print(f"\n {file_count} dosya gezildi!!!!!!!!!!!!")
 print("Büyükler büyüdükçe...")
 print("\n Kırkayaklar vadisi \n \a")
+print("!"*random.randint(3000,90000))
